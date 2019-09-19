@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Pubsite_VentesB2B.Models;
+using Pubsite.Models;
 
-namespace Pubsite_VentesB2B.Controllers
+namespace Pubsite.Controllers
 {
     [Authorize]
     public class AccountController : Controller

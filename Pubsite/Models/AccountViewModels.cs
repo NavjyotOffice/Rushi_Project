@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Pubsite_VentesB2B.Models
+namespace Pubsite.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

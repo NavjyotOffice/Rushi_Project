@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace Pubsite_VentesB2B.Models
+namespace Pubsite.Models
 {
     public class IndexViewModel
     {

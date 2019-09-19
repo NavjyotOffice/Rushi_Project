@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Pubsite_VentesB2B.Models;
+using Pubsite.Models;
 
-namespace Pubsite_VentesB2B
+namespace Pubsite
 {
     public partial class Startup
     {

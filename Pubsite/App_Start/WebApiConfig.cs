@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
 
-namespace Pubsite_VentesB2B
+namespace Pubsite
 {
     public static class WebApiConfig
     {

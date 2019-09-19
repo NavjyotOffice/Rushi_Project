@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Pubsite_VentesB2B.Models
+namespace Pubsite.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
@@ -29,5 +29,8 @@ namespace Pubsite_VentesB2B.Models
         {
             return new ApplicationDbContext();
         }
+
+        public virtual DbSet<ContentDetail> ContentDetails { get; set; }
+        public virtual DbSet<News> News { get; set; }
     }
 }

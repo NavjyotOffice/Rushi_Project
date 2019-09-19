@@ -9,7 +9,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace Pubsite_VentesB2B
+namespace Pubsite
 {
     public class MvcApplication : System.Web.HttpApplication
     {

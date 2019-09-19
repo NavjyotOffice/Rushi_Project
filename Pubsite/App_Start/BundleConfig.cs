@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Pubsite_VentesB2B
+namespace Pubsite
 {
     public class BundleConfig
     {

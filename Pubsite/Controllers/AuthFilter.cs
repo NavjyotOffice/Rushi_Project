@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Mvc;
 
-namespace Pubsite_VentesB2B.Controllers
+namespace Pubsite.Controllers
 {
     public class AuthFilter : AuthorizeAttribute
     {

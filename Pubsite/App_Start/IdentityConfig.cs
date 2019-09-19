@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Pubsite_VentesB2B.Models;
+using Pubsite.Models;
 
-namespace Pubsite_VentesB2B
+namespace Pubsite
 {
     public class EmailService : IIdentityMessageService
     {

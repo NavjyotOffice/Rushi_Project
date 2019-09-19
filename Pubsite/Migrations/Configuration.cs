@@ -1,19 +1,19 @@
-namespace Pubsite_VentesB2B.Migrations
+namespace Pubsite.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Pubsite_VentesB2B.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Pubsite.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "Pubsite_VentesB2B.Models.ApplicationDbContext";
+            ContextKey = "Pubsite.Models.ApplicationDbContext";
         }
 
-        protected override void Seed(Pubsite_VentesB2B.Models.ApplicationDbContext context)
+        protected override void Seed(Pubsite.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

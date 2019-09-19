@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Pubsite_VentesB2B.Startup))]
-namespace Pubsite_VentesB2B
+[assembly: OwinStartupAttribute(typeof(Pubsite.Startup))]
+namespace Pubsite
 {
     public partial class Startup
     {
