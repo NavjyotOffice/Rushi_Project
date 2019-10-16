@@ -32,5 +32,10 @@ namespace Pubsite.Models
 
         public virtual DbSet<ContentDetail> ContentDetails { get; set; }
         public virtual DbSet<News> News { get; set; }
+        public virtual DbSet<Address> Addresses { get; set; }
+        public virtual DbSet<Contact> Contacts { get; set; }
+        public virtual DbSet<Event> Events { get; set; }
+        public virtual DbSet<Company> Companies { get; set; }
+        public virtual DbSet<Resource> Resources { get; set; }
     }
 }
