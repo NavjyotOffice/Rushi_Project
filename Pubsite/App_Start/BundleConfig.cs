@@ -1,4 +1,4 @@
-﻿using System.Web;
+using System.Web;
 using System.Web.Optimization;
 
 namespace Pubsite
@@ -14,10 +14,17 @@ namespace Pubsite
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/angularScripts").Include(
+                          "~/dist/Pubsite/runtime-es5.js",
+                          "~/dist/Pubsite/polyfills-es5.js",
+                          "~/dist/Pubsite/styles-es5.js",
+                          "~/dist/Pubsite/vendor-es5.js",
+                          "~/dist/Pubsite/main-es5.js"
+                          ));
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                          "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
